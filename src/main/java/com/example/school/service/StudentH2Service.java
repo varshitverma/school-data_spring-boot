@@ -77,7 +77,7 @@ public class StudentH2Service implements StudentRepository {
         if (student.getGender() != null) {
             db.update("update student set gender = ? where studentId = ?", student.getGender(), studentId);
         }
-        if (student.getStandard() != null) {
+        if (student.getStandard() != 0) {
             db.update("update student set standard = ? where studentId = ?", student.getStandard(), studentId);
         }
 
