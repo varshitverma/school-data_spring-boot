@@ -1,4 +1,4 @@
-Given five files,
+Files
 
 - `StudentController.java`
 - `StudentRepository.java`
